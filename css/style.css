@@ -1,16 +1,62 @@
-.container{
-    background-color: lightblue;
+/*Top Part*/
+body{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
 }
-div{
-    height: 100px;
-    width: 100px;
+h1{
+    font-size: 50px;
 }
-#first{
-    background-color: forestgreen;
+p{
+    color: dimgray;
 }
-#second{
-    background-color: greenyellow;
+section{
+    height: 500px;
+    padding-bottom: 150px;
 }
-#third{
-    background-color: hotpink;
+.top-banner{
+    background-image: url("../image/top-banner.png");
+    background-repeat: no-repeat;
+}
+.name-highlight{
+    color: orange;
+}
+.button{
+    background-color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width p{
+    text-align: justify;
+}
+/*Button*/
+.HireMe-Button{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, lightSalmon , tomato);
+    font-weight: bold;
+    color: white;
+    
+}
+/* Resume Section */
+.resume-area{
+    background-image: url("../image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.Resume-Button{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, lightSalmon , tomato);
+    font-weight: bold;
+    color: white;
 }
