@@ -1,0 +1,16 @@
+.container{
+    background-color: lightblue;
+}
+div{
+    height: 100px;
+    width: 100px;
+}
+#first{
+    background-color: forestgreen;
+}
+#second{
+    background-color: greenyellow;
+}
+#third{
+    background-color: hotpink;
+}
