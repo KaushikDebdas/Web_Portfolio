@@ -1,6 +1,10 @@
 /*Top Part*/
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
 body{
-    margin: 0;
+    margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
@@ -12,7 +16,7 @@ p{
 }
 section{
     height: 500px;
-    padding-bottom: 150px;
+    padding-bottom: 100x;
 }
 .top-banner{
     background-image: url("../image/top-banner.png");
@@ -65,16 +69,18 @@ section{
     background-image: url("../image/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
-    padding: auto;
-    text-align: justify;
+    margin: 2px;
 }
 .experience-area h1{
-    text-align: center;
+    font-weight: bold;
 }
-.signle-experience{
+.experience-area p{
+    margin-right: 10px;
+}
+.single-experience{
     box-shadow: 10px 10px 40px gray;
-    border-radius: 10px;
-    height: 80%;
+    border-radius: 5px;
+    height: 70%;
     background-color: white;
 }
 #full-stack{
@@ -86,6 +92,38 @@ section{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightSalmon, tomato);
     border-image-slice: 1;
+}
+/* Project Area */
+.project-area{
+    margin: 2px;
+}
+.container h1{
+    text-align: center;
+    font-weight: bold;
+}
+.card{
+    box-shadow: 10px 10px 70px gray;
+    border-radius: 1%;
+    height: 350px;
+    margin: 2%;
+    padding: 30px;
+}
+.card-title{
+    font-weight: bold;
+    font-size: large;
+}
+.card-text{
+    text-align: justify;
+}
+/*Button*/
+.project-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, lightSalmon , tomato);
+    font-weight: bold;
+    color: white;
+    
 }
 /* Footer Area */
 .footer-area{
